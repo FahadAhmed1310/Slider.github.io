@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+</head>
+<style>
+    .car{
+        width: 40%;
+        float: right;
+    }
+    .scale{
+        width: 40%;
+        float: left;
+    }
+    .nav{
+       border: 2px solid red;
+       border-radius: 10px;
+       background-color: aqua;
+    }
+</style>
+<body>
+    <nav class="nav">
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="Home" style="text-decoration: none;">Home &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<a href="About" style="text-decoration: none;">About &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<a href="Services" style="text-decoration: none;">Services &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; <a href="Gallery" style="text-decoration: none;">Gallery &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<a href="Contact Us" style="text-decoration: none;"> Contact Us &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+    
+    </nav>
+
+      <!-- Insert to your webpage where you want to display the slider -->
+      <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 0px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/33115.jpg" alt="33115"  title="33115" />
+                </li>
+                <li><img src="images/car1.jpg" alt="car1"  title="car1" />
+                </li>
+                <li><img src="images/car2.jpg" alt="car2"  title="car2" />
+                </li>
+                <li><img src="images/car1.jpg" alt="car1"  title="car1" data-texteffect="Bottom bar" />
+                </li>
+                <li><img src="images/car3.jpg" alt="car3"  title="car3" />
+                </li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="jQuery Image Slideshow">jQuery Image Slideshow</a></div>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+    <br> <br>
+
+    <img src="./images/car1.jpg" alt="error" class="scale">
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, unde nostrum. Veniam exercitationem aperiam ea vitae laudantium, nemo quisquam! Nihil nesciunt accusantium expedita adipisci nulla perferendis accusamus, veritatis reprehenderit. Totam a pariatur eum explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse consectetur eaque veniam facere laborum quia tempore amet vero animi quos odio, praesentium iste exercitationem sit? Quasi asperiores iusto sequi labore consequuntur incidunt optio dignissimos!</p><br><br>
+    <img src="./images/car2.jpg" alt="" class="car">
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam laborum deleniti perspiciatis aliquam magnam quod rerum minima odio, neque impedit exercitationem, saepe fugit porro iste ipsum modi pariatur dicta. Natus libero, expedita maiores eum voluptatem eos voluptatibus id amet quos? Libero sapiente, animi aspernatur nemo voluptas fuga doloremque tenetur, assumenda corrupti laboriosam laudantium eaque incidunt, sint labore itaque vitae aperiam. Nemo ipsam mollitia cupiditate deserunt unde modi atque.</p>
+</body>
+</html>
